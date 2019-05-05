@@ -101,15 +101,19 @@ public class PageNode {
      * 
      * @return a set of all the urls of the out going links as strings
      */
-    public Set<String> getOutLinks() {
-        Set<String> links = new HashSet<String>();
-        
-        for (Entry<String, PageNode> e : outLinks.entrySet()) {
-            links.add(e.getKey());
-        }
-        
-        return links;
+    public Set<String> getOutLinks() {        
+        return this.outLinks.keySet();
     }
+    
+    public HashSet<PageNode> getOutNodes(){
+    	HashSet<PageNode> nodes = new HashSet<PageNode>();
+    	for (Entry<String, PageNode> e : outLinks.entrySet()) {
+            nodes.add(e.getValue());
+        }
+    	return nodes;
+    }
+    
+    
     
     /*
      * Determine whether a given URL is a link from this node
