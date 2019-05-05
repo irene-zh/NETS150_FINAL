@@ -13,7 +13,7 @@ public class PageNodeTest {
     public void getOutLinksTechHighTest() {
         PageNode test = new PageNode("https://en.wikipedia.org/wiki/Technology_High_School_"+
                                      "(Rohnert_Park,_California)");
-        
+        //PageNode test = new PageNode("https://en.wikipedia.org/wiki/Argentina");
         // get the outgoing links
         test.findOutgoingLinks();
         
@@ -30,7 +30,7 @@ public class PageNodeTest {
         System.out.println();
         System.out.println();
     }
-    
+    /*
     @Test(timeout = 100000)
     public void getOutLinksDieboldTest() {
         PageNode test = new PageNode("https://en.wikipedia.org/wiki/Francis_X._Diebold");
@@ -48,5 +48,5 @@ public class PageNodeTest {
         }
         System.out.println();
         System.out.println();
-    }
+    }*/
 }
