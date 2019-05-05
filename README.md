@@ -6,6 +6,7 @@ _Group Members: Irene Zhang, Kenneth Shinn_
 * **Main.java**
   -
 * **PageNode.java**
+  -
   * *url: String*
   * *page: Document*
   * *outLinks : Map\<String, PageNode\>*
