@@ -37,11 +37,15 @@ public class PageNode {
         } else if (url.length() < WIKI_LINK_PREFIX.length()) {
             throw new IllegalArgumentException();
         }
+        if(!url.contains(WIKI_LINK_PREFIX)) {
+        	throw new IllegalArgumentException();
+        }
+        /*
         for (int i = 0; i < WIKI_LINK_PREFIX.length(); i++) {
             if (url.charAt(i) != WIKI_LINK_PREFIX.charAt(i)) {
                 throw new IllegalArgumentException();
             }
-        }
+        }*/
         
         this.url = url;
         

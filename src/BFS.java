@@ -15,9 +15,6 @@ public class BFS {
 		if (start == null || end == null) {
 			throw new IllegalArgumentException("Start and end nodes cannot be null.");
 		}
-		if (!start.isValidPage() || !end.isValidPage()) {
-			throw new IllegalArgumentException("Start and end nodes must be valid pages");
-		}
 		
 		// Queue for nodes
 		Queue<PageNode> q = new LinkedList<PageNode>();

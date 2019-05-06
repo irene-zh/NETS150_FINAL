@@ -8,6 +8,12 @@ public class Main {
 		System.out.println("*************************************");
 		System.out.println("********NETS 150 FINAL PROJECT*******");
 		System.out.println("*************************************");
+		System.out.println("Welcome to the Wikipedia Racer!");
+		System.out.println("All input links *MUST* be Wikipedia links.");
+		System.out.println("Please enter a start link : ");
+		
+		System.out.println("Please enter an end link: ");
+		
 
 	}
 }
