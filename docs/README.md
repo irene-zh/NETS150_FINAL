@@ -5,11 +5,11 @@ Our project is a Wikipedia Racer. The program will ask the user to input two lin
 
 ## Classes
 * **BFS.java**
-  -
+
 * **Main.java**
-  -
+  
 * **PageNode.java**
-  -
+  
   * *url: String*
   * *page: Document*
   * *outLinks : Map\<String, PageNode\>*
@@ -24,6 +24,6 @@ Our project is a Wikipedia Racer. The program will ask the user to input two lin
   * **getOutgoingLinks() : Set\<String\>**
   * **getOutNodes() : Set\<PageNode\>**
 * **PageNodeTest.java**
-  -
+  
 * **BFSTests.java**
-  -
+  
