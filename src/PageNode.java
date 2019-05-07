@@ -75,7 +75,7 @@ public class PageNode {
             if ((subLink.length() > 0 && subLink.charAt(0) == '#') ||
                  subLink.contains("index.php") || subLink.contains("File:") ||
                  subLink.contains("Category:") || subLink.contains("Help:") ||
-                 subLink.contains("Special:")) {
+                 subLink.contains("Special:") || subLink.contains("Wikipedia:")) {
                 continue;
                
             } else {

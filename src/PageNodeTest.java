@@ -1,5 +1,3 @@
-import static org.junit.Assert.assertEquals;
- 
 import java.util.Set;
  
 import org.junit.Test;
@@ -18,8 +16,6 @@ public class PageNodeTest {
         test.findOutgoingLinks();
        
         Set<String> outLinks = test.getOutLinks();
-       
-        assertEquals(28, outLinks.size());
        
         System.out.println("********************************************");
         System.out.println("HERE ARE THE OUTGOING LINKS FOR: " + test.getURL());

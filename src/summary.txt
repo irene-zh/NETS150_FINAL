@@ -1,0 +1,27 @@
+Project Name : Wikipedia Racer
+Group Members: Kenneth Shinn, Irene Zhang
+
+Project Description : 
+
+This Implementation Project uses BFS and JSoup webscraping to find the "shortest path" from one
+Wikipedia article to another using only links on the page/ This program will output this ordered path 
+of links to assist a user with Wikipedia Racing.
+
+Project Categories : 
+	> Graphs and graph algorithms : We used BFS to find outgoing links to other pages 
+									given a Wikipedia page. Also, since Wikipedia itself 
+									can be modeled by a directed graph with no edge weights (links
+									are one way, serve one purpose, and don't have "costs"),
+									BFS is ideal for finding the shortest path between two nodes.
+	> Information Networks : We used JSoup for webscraping. Given a wikipedia page, we want
+							 a way to retrieve the outgoing links from that page and subsequently
+							 turn them into adjacent nodes of the graph.
+	
+Work Breakdown : 
+
+Although both Irene and Kenneth ended up contributed to both main parts of this project, Kenneth 
+mainly worked on the PageNode class (the meat of the webscraping) and Irene mainly worked on the 
+BFS class (the meat of the BFS process).
+
+Finally, Irene put it all together through the Main.java class, and Kenneth tested the 
+final version of the code.
