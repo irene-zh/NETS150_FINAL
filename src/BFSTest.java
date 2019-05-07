@@ -36,7 +36,7 @@ public class BFSTest {
 	
 	@Test
 	public void testShortDistance() {
-		System.out.println("---Test Distance of > 1---");
+		System.out.println("---Test Distance of greather than 1---");
 		long startTime = System.currentTimeMillis();		
 		PageNode start2 = new PageNode("https://en.wikipedia.org/wiki/Kilman");
 		PageNode end2 = new PageNode("https://en.wikipedia.org/wiki/Swedish_Army");	

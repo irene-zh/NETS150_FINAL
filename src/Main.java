@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 //Full Name: Kenneth Shinn
 //Full Name: Irene Zhang
@@ -10,9 +11,15 @@ public class Main {
 		System.out.println("*************************************");
 		System.out.println("Welcome to the Wikipedia Racer!");
 		System.out.println("All input links *MUST* be Wikipedia links.");
-		System.out.println("Please enter a start link : ");
 		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter a start link : ");
+		String arg1 = sc.next();
 		System.out.println("Please enter an end link: ");
+		String arg2 = sc.next();
+		
+		
+		System.out.println(arg1+ arg2);
 		
 
 	}
